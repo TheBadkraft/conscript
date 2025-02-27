@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main(void) {
-    string greeting = "Hello, conscript!";
+    string greeting = "Welcome, Conscript!";
     printf("%s\n", greeting);
     return 0;
 }

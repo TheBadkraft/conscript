@@ -1,0 +1,4 @@
+gcc -Wall -g -Iinclude -I/usr/include -c test/test_renderer.c -o build/test/test_renderer.o
+gcc -Wall -g -Iinclude -c src/renderer.c -o build/renderer.o
+gcc build/test/test_renderer.o  build/renderer.o -o build/test/test_renderer -lsigcore -L/usr/lib -lsigtest
+rm build/test/test_renderer build/test/test_renderer.o build/renderer.o
